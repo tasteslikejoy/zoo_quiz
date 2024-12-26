@@ -13,3 +13,9 @@ class Form(StatesGroup):
     nine_name_answer = State()
     ten_name_answer = State()
     yes_or_no_name_answer = State()
+
+class FormFinaly(StatesGroup):
+    one_name_finaly_answer = State()
+    two_name_finaly_answer = State()
+    three_name_finaly_answer = State()
+    four_name_finaly_answer = State()

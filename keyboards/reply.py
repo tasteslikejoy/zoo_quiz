@@ -214,3 +214,12 @@ group_kb = ReplyKeyboardMarkup(
     ],
     resize_keyboard=True
 )
+
+finaly_kb = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text='ЭТО БУДЕТ ЛЕ-ГЕН-ДАРНО ')
+        ]
+    ],
+    resize_keyboard=True
+)
